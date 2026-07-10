@@ -45,4 +45,44 @@ ul li a{
     cursor: pointer;
 }
 
+.nab-btn:hover{
+background-color: #3662db;
+}
 /* Navbar End */
+
+
+/* Hero section start */
+
+.hero-parent-root{
+    background: linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.2)), url("./images/banner.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+     
+    
+}
+
+.hero-parent-root-text{
+    color: #ffff;
+    text-align: center;
+    margin-top: 13.125rem;
+    
+    
+}
+.hero-parent-root-text h1{
+    font-size: 4rem;
+}
+
+.hero-parent-root-text p{
+    max-width: 560px;
+    margin: 20px auto;
+}
+
+.hero-parent-root-text button{
+    margin-top: 17.5rem;
+}
+
+/* Hero section End */
