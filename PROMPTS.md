@@ -1,22 +1,22 @@
-ami FAQ section banabo sudhu html css use kora
+1) ami FAQ section banabo sudhu html css use kora
 
 
 
-"ami cai tumi amaka prompt dao " "jai prompt ar madhome ami chatgpt teka html and css use kora amaka ayi FAQ section bania diba" "tai balo prompt dao jai ta ami chat gpt ka dela sa jano sojai bujta para ami ki cai na cai amon bistarito vabay jano bola taka prompt a"
+2) "ami cai tumi amaka prompt dao " "jai prompt ar madhome ami chatgpt teka html and css use kora amaka ayi FAQ section bania diba" "tai balo prompt dao jai ta ami chat gpt ka dela sa jano sojai bujta para ami ki cai na cai amon bistarito vabay jano bola taka prompt a"
 
 
-tumi ja FAQ tay ja questions gulo deso sai gulo jano amar ayi figma satha mil taka"mane question gulo jano bahir ar kono topic ar jano na hoy"
-
-
-
-ha akon tahola amaka prompt dao
+3) tumi ja FAQ tay ja questions gulo deso sai gulo jano amar ayi figma satha mil taka"mane question gulo jano bahir ar kono topic ar jano na hoy"
 
 
 
+4) ha akon tahola amaka prompt dao
 
 
 
-I am building a DevConf 2026 Conference Landing Page using only HTML and CSS (no JavaScript and no Bootstrap).
+
+
+
+5) I am building a DevConf 2026 Conference Landing Page using only HTML and CSS (no JavaScript and no Bootstrap).
 
 I have already completed the Hero, Speakers, and Pricing sections. Now I need to add one more section: Frequently Asked Questions (FAQ).
 
@@ -84,15 +84,15 @@ I am building this website using only HTML and CSS (no JavaScript and no Bootstr
 
 
 
-"first give me html code"
+6) "first give me html code"
 "and one think question and ans only 4 speaker related"
 
 
 
 
-"now give me css"
+7) "now give me css"
 
 
 
 
-css ar question ar box gulor width gulo aro komia deo "only css"
+8) css ar question ar box gulor width gulo aro komia deo "only css"
