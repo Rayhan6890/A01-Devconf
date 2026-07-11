@@ -19,18 +19,18 @@ nav{
     margin:0 auto;
 }
 
-ul{
+nav ul{
     display: flex;
     list-style: none;
     gap: 20px;  
 }
 
-li a{
+nav li a{
     color:#575757;
     
 }
 
-ul li a{
+nav ul li a{
     text-decoration: none;
 }
 
@@ -114,7 +114,6 @@ background-color: #3662db;
 }
 .speakers-images,.box{
     width: 90%;
-    
     margin: 0 auto;
 }
 .box {
@@ -126,6 +125,7 @@ background-color: #3662db;
     font-size: 20px;
     font-family: "Inter",sans-serif;
     padding: 5px 0;
+    font-weight: bold;
     
 }
 .box img{
@@ -149,4 +149,145 @@ span{
 }
 
 
-/* Speakers section start */
+/* Speakers section End */
+
+
+
+
+/* Spot section start */
+
+.spot-parent{
+    margin-top: 150px;
+}
+
+.spot-parent-text{
+    text-align: center;
+}
+
+.spot-parent-text h2{
+    font-weight: bold;
+    font-family: "Inter",sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.spot-parent-text p{
+    font-size: 16px;
+    color: #575757;
+    margin-bottom: 40px;
+}
+
+.spot-parent-card{
+    display: flex;
+    justify-content: space-between;
+    text-align:left;
+    gap: 20px;
+    
+}
+
+.spot-parent-card, .card{
+    width: 80%;
+    margin: 0 auto;
+}
+.card-main{
+    
+    border: 1px solid #E5E7EB;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.card-main h3{
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 2rem;
+}
+ .card-para-head{
+    font-size: 10px;
+    font-weight: 500;
+    color: #888888;
+}
+
+.card-para{
+  font-size: 10px;
+  color: #888888;
+}
+.card-blue-para{
+    color: #969393;
+    font-size: 10px;
+}
+.card-main ul{
+    list-style-position: inside;
+    padding-right: 50px;
+}
+.card-main li{
+    margin-bottom: 20px;
+    font-size: 10px;
+    font-family: "Inter"sans-serif;
+}
+ .card-main hr{
+    border: none;
+    height: 2px;
+    margin: 20px 0;
+    background-color: #E5E7EB;
+}
+
+.changes{
+    background-color:#081e35 ;
+    color: #ffff;
+}
+
+.card-blue{
+    color: #93C5FD;
+    font-weight: 500;
+}
+
+.changes hr{
+     border: none;
+    height: 1px;
+    margin: 20px 0;
+    background-color: #555252;
+}
+
+.card-main li::marker{
+ color: #2563EB;
+}
+
+.card-btn-one button{
+   padding: 10px 70px;
+    border-radius: 5px;
+    background-color: #ffff;
+    font-size: 12px;
+    border-color:#2563EB;
+    color: #2563EB;
+    font-weight: 500;
+    cursor: pointer;
+}
+.card-btn-one button:hover{
+    background-color: #eeeff0;
+}
+.card-btn-two button{
+     padding: 10px 70px;
+    border-radius: 5px;
+    background-color: #2563EB;
+    color: #ffff;
+    font-size: 12px;
+    border-style: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.card-btn-two button:hover{
+    background-color: #4890e2;
+}
+
+.card-btn-three button{
+    padding: 10px 70px;
+    border-radius: 5px;
+    background-color: #ffff;
+    font-size: 12px;
+    border-color:#0D1B2A;
+    font-weight: 500;
+    cursor: pointer;
+}
+.card-btn-three button:hover{
+    background-color: #eeeff0;
+}
