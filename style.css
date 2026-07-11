@@ -133,7 +133,7 @@ background-color: #3662db;
     width: 100%;
 }
 
-span{
+.box-text span{
     color:#2563EB;
     font-size: 14px;
     
@@ -290,4 +290,196 @@ span{
 }
 .card-btn-three button:hover{
     background-color: #eeeff0;
+}
+
+/* Spot section End */
+
+
+
+
+
+
+
+/* ===========================
+   FAQ Section
+=========================== */
+
+.faq-section {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+/* ===========================
+   Section Heading
+=========================== */
+
+.faq-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.faq-heading h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.faq-heading p {
+    font-size: 1rem;
+    color: #6b7280;
+    max-width: 550px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* ===========================
+   FAQ Cards Container
+=========================== */
+
+.faq-container {
+    display: grid;
+    grid-template-columns: repeat(2,420px);
+    gap: 25px;
+    justify-content: center;
+    
+}
+
+/* ===========================
+   FAQ Card
+=========================== */
+
+.faq-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 30px;
+    transition: all 0.3s ease;
+}
+
+.faq-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.faq-card h3 {
+    font-size: 1.25rem;
+    color: #111827;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.faq-card p {
+    font-size: 0.95rem;
+    color: #6b7280;
+    line-height: 1.8;
+}
+
+/* ===========================
+   Tablet
+=========================== */
+
+@media (max-width: 992px) {
+
+    .faq-heading h2 {
+        font-size: 2.5rem;
+    }
+
+    .faq-container {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media (max-width: 576px) {
+
+    .faq-section {
+        padding: 70px 0;
+        grid-template-columns: 1fr;
+    }
+
+    .faq-heading {
+        margin-bottom: 40px;
+    }
+
+    .faq-heading h2 {
+        font-size: 2rem;
+    }
+
+    .faq-heading p {
+        font-size: 0.95rem;
+    }
+
+    .faq-card {
+        padding: 22px;
+    }
+
+    .faq-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .faq-card p {
+        font-size: 0.9rem;
+    }
+
+}
+
+
+
+    /* FAQ Section End */
+
+
+
+  /* footer section start */
+  .footer-main{
+    background-color: #0D1B2A;
+    padding-top: 20px;
+    border-radius: 10px;
+  }
+.footer-parent{
+    
+    display: flex;
+    justify-content: space-between;
+    border: 5px;
+    
+}
+.footer-images{
+    padding-left: 20px;
+}
+
+.footer-main-icons span{
+    color:white ;
+    font-size: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.footer-main-icons span:hover{
+    color: rgb(22, 169, 228);
+}
+.footer-copyright{
+    color: #b9b6b6;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.footer-divider{
+    border: none;
+    border-top: 1px solid rgb(136, 139, 175);
+}
+
+.footer-short-text{
+    display: flex;
+    justify-content: right;
+}
+.footer-text{
+    color: #b9b6b6;
+    gap: 20px;
+    padding:20px;
+    text-align: center;
+    font-size: 13px;
 }
