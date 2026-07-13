@@ -195,6 +195,11 @@ background-color: #3662db;
     padding: 50px;
     border-radius: 8px;
 }
+.card-main-head{
+     color: #888888;
+     font-size: 12px;
+     font-weight: 500;
+}
 
 .card-main h3{
     padding: 10px 0;
@@ -202,7 +207,7 @@ background-color: #3662db;
     font-size: 2rem;
 }
  .card-para-head{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
     color: #888888;
 }
@@ -239,6 +244,7 @@ background-color: #3662db;
 .card-blue{
     color: #93C5FD;
     font-weight: 500;
+    font-size: 13px;
 }
 
 .changes hr{
